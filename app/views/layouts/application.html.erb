@@ -7,8 +7,55 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+		<div class="col-xs-3 logo">
+    			<span>Let's do this!</span>
+		</div>
+		<div class="col-xs-6 slogan">
+			<a href="http://www.thefirehoseproject.com">Coding for everyone!</a>
+		</div>
+		 <div class="col-xs-5">
+      <%= link_to 'Ask Questions', '#' %>
+    </div>
+	</header>
+	<hr />
+<br class="clear" />
 
+<div class="container">
 <%= yield %>
+</div>
+
+<div class="col-xs-12 col-sm-4">
+	<br />
+	<%= image_tag 'tigger-firehose-01.gif', :class => 'img-responsive' %>
+</div>
+
+<div class="col-xs-12 col-sm-7 col-sm-offset-1">
+	<h2 class="text-left">
+	<br />
+	<br />
+	<br />
+	<ul>
+		<li>Easy access to Ken and Marco</li>
+		<li>One on one mentorships</li>
+		<li>Job/career assistance</li>
+		<li>Tech interview tips/tricks</li>
+	</ul>
+
+</div>
+
+<div class="container footer">
+		<div class="col-xs-6 col-md-4">
+			<p>
+				<a href="http://www.thefirehoseproject.com">Sign me up!!!</a>
+			</p>
+		</div>
+		<div class="col-xs-6 col-md-4 footer-blurb">
+			<p>
+				Designed by <a href="http://www.github.com/dvanetten03">Diane Van Etten</a>
+			</p>
+		</div>
+</div>
 
 </body>
 </html>

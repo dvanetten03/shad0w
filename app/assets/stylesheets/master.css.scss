@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+.clear	{
+	clear:both;
+}
+
+span {
+	display: inline-block;
+	padding-top: 10px;
+	background: whiteSmoke;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	vertical-align: center;
+
+	-webkit-box-shadow: -6px -8px 10px #023FA3, -4px 7px 10px #00FFFF, 6px -4px 10px #0099FF;
+	-moz-box-shadow: -6px -8px 10px #023FA3, -4px 7px 10px #00FFFF, 6px -4px 10px #0099FF;
+	box-shadow: -6px -8px 10px #023FA3, -4px 7px 10px #00FFFF, 6px -4px 10px #0099FF;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-transition: box-shadow .4s ease;
+	-moz-transition: box-shadow .4s ease;
+	-o-transition: box-shadow .4s ease;
+	-ms-transition: box-shadow .4s ease;
+	transition: box-shadow .4s ease;
+}
+
+span:hover {
+	-webkit-box-shadow: -6px -8px 10px #0099FF, -4px 7px 10px #051C7A, 6px -4px 10px #023FA3;
+	-moz-box-shadow: -6px -8px 10px #0099FF, -4px 7px 10px #051C7A, 6px -4px 10px #023FA3;
+	box-shadow: -6px -8px 10px #0099FF, -4px 7px 10px #051C7A, 6px -4px 10px #023FA3;
+}
+.slogan	{
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	padding-top: 16px;
+	color: #042D8D;
+	text-align: center;
+}
+
+header	{
+	border-top: 30px solid #0099FF;
+}
+
+hr 	{
+	clear:both;
+}
+
+h1	{
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	font-size: 48px;
+	color: #0245AB;
+}
+h2	{
+	font-family: 'Slabo 27px', serif;
+	font-size: 28px;
+	color: #0099FF;
+}
+.footer-blurb	{
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	text-align: right;
+	font-size: 15px;
+	text-align: right;
+}
+a 	{
+	font-family: 'Slabo 27px', serif;
+	font-style: bold;
+	color: red;
+}
+.logo	{
+	font-size: 10px;
+}
