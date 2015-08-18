@@ -5,8 +5,9 @@
 }
 
 body {
+  border-radius: 20px;
   background: url('/assets/crossword.png');
-    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
 .navbar.navbar-inverse {
@@ -109,3 +110,6 @@ a 	{
 	text-align: right;
 }
 
+.navbar-header	{
+	color: #0099FF;
+}
